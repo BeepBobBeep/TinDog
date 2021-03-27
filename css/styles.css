@@ -5,6 +5,13 @@ h1{
     line-height: 1.5;
 }
 
+h2{
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 body{
     font-family: 'Montserrat', 'sans-serif';
 }
@@ -51,7 +58,7 @@ h3{
     margin-top: 40px;
 }
 .feature_icons{
-    color: #c23f3f; 
+    color: #ce5555; 
     font-size: 3rem;
     margin-bottom: 1rem;
 }
@@ -62,11 +69,24 @@ h3{
     color: #8f8f8f;
 }
 
-/* ID */
+
 #title{
     background-color: #c41e1e;
     color: rgb(255, 255, 255);
 }
+
 #features{
     padding: 7% 15%;
+}
+
+#testimonials{
+    padding: 7% 15%;
+    background-color: #ce5555;
+    color: white;
+    text-align: center;
+}
+.testimonial_image{
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
 }
