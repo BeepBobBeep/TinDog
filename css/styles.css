@@ -102,3 +102,15 @@ h3{
     width: 15%;
     margin: 20px 20px 50px;
 }
+
+.pricing_card_row{
+    padding: 3% 2%;
+    text-align: center;
+}
+.pricing_card{
+    padding: 1%;
+}
+.card{
+    /* Similar to using class h-100 to make all cards equal height */
+    height: 100%;
+}
