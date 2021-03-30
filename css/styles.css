@@ -23,7 +23,7 @@ h3{
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 .navbar{
@@ -51,8 +51,13 @@ h3{
     transform: rotate(25deg);
     width: 60%;
     margin: 2rem 0 0 7rem;
+    position: absolute;
 }
 
+#features{
+    background-color: white;
+    position: relative;
+}
 .feature_points{ /* Whole box*/
     text-align: center;
     margin-top: 40px;
@@ -73,6 +78,9 @@ h3{
 #title{
     background-color: #8c0000;
     color: rgb(255, 255, 255);
+}
+.title_bottom{
+    height: 10%;
 }
 
 #features{
