@@ -127,6 +127,26 @@ h3{
     height: 100%;
 }
 
+#cta{
+    background-color: #bd2000;
+    padding: 7% 17%;
+    text-align: center;
+    color: #fff;
+}
+
+#footer{
+    padding: 7% 9% 1%;
+    text-align: center;
+}
+.footer_icon{
+    margin: 0 3% 4%;
+    font-size: 1.5rem;
+    text-decoration: none;     
+    color: rgb(41, 40, 40);
+    /*  */
+
+}
+
 @media (max-width:993px){
     .phone_img{
         /* To make it go down and undo the rotation */
