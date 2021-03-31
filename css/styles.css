@@ -126,3 +126,21 @@ h3{
     /* Similar to using class h-100 to make all cards equal height */
     height: 100%;
 }
+
+@media (max-width:993px){
+    .phone_img{
+        /* To make it go down and undo the rotation */
+        transform: rotate(0deg);
+        position: static;
+
+        /* To make the image center align */
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }   
+
+    #title{
+        /* To make the text centre align */
+        text-align: center;
+    }
+}
