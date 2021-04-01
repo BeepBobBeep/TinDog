@@ -18,10 +18,25 @@ body{
     line-height: 1.5;
 }
 
+/* Containers */
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section{
+    color: white;
+    background-color: #8c0000;
+}
+
+.white-section{
+    color: black;
+    background-color: #fff;
+}
+
+
 /* TITLE */
 #title{
-    background-color: #8c0000;
-    color: rgb(255, 255, 255);
     text-align: left;
 }
 
@@ -69,7 +84,6 @@ body{
 
 /* FEATURES */
 #features{
-    background-color: white;
     position: relative;
 }
 .feature_points{ /* Whole box*/
@@ -96,7 +110,6 @@ body{
 /* TESTIMONIALS */
 #testimonials{
     background-color: #bd2000;
-    color: white;
     text-align: center;
 }
 
@@ -140,7 +153,6 @@ body{
 #cta{
     background-color: #bd2000;
     text-align: center;
-    color: #fff;
 }
 
 /* FOOTER */
@@ -152,8 +164,6 @@ body{
     font-size: 1.5rem;
     text-decoration: none;     
     color: rgb(41, 40, 40);
-    /*  */
-
 }
 
 
